@@ -19,8 +19,47 @@
   color: white;
 }
 
+.first_page_gif{
+  min-height: 10vh;
+
+}
+
+
+.login_register{
+  color:#8d0f7c;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 40px;
+
+}
+.login_create_account{
+  color:#8d0f7c;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 15px;
+
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.login_button:hover{
+  
+}
+.login_button{
+  background-color: rgb(163, 31, 119);
+  color: white;
+  border: 2px solid #8d0f7c;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  font-size: 22px;
+  font-family: 'Caveat Brush', cursive;
+}
+
+.brush_font{
+  font-family: 'Caveat Brush', cursive;
+  font-size: 80px;
+  color: #8d0f7c;
 }
 
 @keyframes App-logo-spin {
