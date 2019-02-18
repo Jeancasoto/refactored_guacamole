@@ -28,6 +28,8 @@
 
 
 .login_register{
+  
+  background-color: #ccc5c5;
   color:#8d0f7c;
   font-family: 'Caveat Brush', cursive;
   font-size: 40px;
@@ -47,6 +49,7 @@
 .login_button:hover{
   
 }
+
 .login_button{
   background-color: rgb(163, 31, 119);
   color: white;
