@@ -28,8 +28,7 @@
 
 
 .login_register{
-  
-  background-color: #ccc5c5;
+  background-color: #ffffff;
   color:#8d0f7c;
   font-family: 'Caveat Brush', cursive;
   font-size: 40px;
@@ -59,6 +58,12 @@
   transition-duration: 0.4s;
   font-size: 22px;
   font-family: 'Caveat Brush', cursive;
+}
+
+.brush_font_navbar{
+  font-family: 'Caveat Brush', cursive;
+  font-size: 100px;
+  color: #8d0f7c;
 }
 
 .brush_font{

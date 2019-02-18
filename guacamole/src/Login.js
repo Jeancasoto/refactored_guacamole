@@ -2,8 +2,6 @@ import React from 'react';
 import parrot from './Images/parrot.gif';
 import { Button } from 'reactstrap';
 
-
-
 export default class Login extends React.Component {
     constructor(props) {
     super(props);
@@ -18,9 +16,6 @@ export default class Login extends React.Component {
       isOpen: !this.state.isOpen
     });
   }
-
-
-
 
   render() {
     return (
@@ -38,8 +33,8 @@ export default class Login extends React.Component {
           
           </label>
 
-          <Button color="danger" > BOTON PRUEBA</Button>
-
+          
+          <Button outline color="primary">Log in</Button>{' '} 
           
           {/*}
           <button tag={Prueba} to="/prueba" className="login_button">LOG IN</button>

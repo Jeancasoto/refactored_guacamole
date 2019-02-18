@@ -1,4 +1,9 @@
 import React from 'react';
+import Notification from './Notifications.js';
+import Logo from './Images/64_black.png';
+import './App.css';
+
+
 import {
   Collapse,
   Navbar,
@@ -30,13 +35,13 @@ export default class Pnavbar extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Mi Perfil</NavbarBrand>
+          <img src={Logo} height="30" width="50" alt="text here" />
+          <NavbarBrand className="brush_font_navbar" href="/">ETTER</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/">Carrito</NavLink>
-              </NavItem>
+                <Notification></Notification>
+            
               <NavItem>
                 <NavLink href="https://github.com/reactstrap/reactstrap">Comprar</NavLink>
               </NavItem>
