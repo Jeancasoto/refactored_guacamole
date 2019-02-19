@@ -31,7 +31,7 @@ import Pedigree from './Pedigree.js';
 const Example = (props) => {
   return (
 
-    <CardColumns>
+    <CardColumns >
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg className="first_page_gif" top width="50%" src={Husky} alt="Card image cap" />
         <CardBody className>
