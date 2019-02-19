@@ -1,6 +1,5 @@
 import React from 'react';
 import Pnavbar from './profile_navbar.js';
-import Carousel from './Carousel.js';
 import S from './Images/search.svg';
 import Decks from './Decks.js';
 import { Card, Button, CardImg, Row, CardTitle, CardText, CardDeck, CardColumns, CardRows,
