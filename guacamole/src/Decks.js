@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardColumns, CardRows,
+import { Card, Button, CardImg, Row, CardTitle, CardText, CardDeck, CardColumns, CardRows,
  CardSubtitle, CardBody } from 'reactstrap';
 import Conejo1 from './Images/conejo1.jpg';
 import Conejo2 from './Images/conejo2.jpg';
@@ -21,9 +21,9 @@ import Perro8 from './Images/perro8.jpg';
 import Perro9 from './Images/perro9.jpg';
 import Perro10 from './Images/perro10.jpg';
 import Husky from './Images/husky.jpg';
+import Carrito from './Images/carrito.svg';
 
-
-
+import Pedigree from './Pedigree.js';
 
 
 const Example = (props) => {
@@ -32,182 +32,282 @@ const Example = (props) => {
     <CardColumns>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg className="first_page_gif" top width="50%" src={Husky} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle> Siberian Husky</CardSubtitle>
+          <CardText className="cards_price">$ 999.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro1} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+          <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Chow Chow</CardSubtitle>
+          <CardText className="cards_price">$ 899.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Pajaro1} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Aves</CardTitle>
+          <CardSubtitle>Guacamaya</CardSubtitle>
+          <CardText className="cards_price">$ 799.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Conejo1} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Roedores</CardTitle>
+          <CardSubtitle>Mini Lop</CardSubtitle>
+          <CardText className="cards_price">$ 199.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Sphynx} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Felinos</CardTitle>
+          <CardSubtitle>Sphynx</CardSubtitle>
+          <CardText className="cards_price">$ 1099.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Pajaro3} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Aves</CardTitle>
+          <CardSubtitle>Guacamayo jacinto</CardSubtitle>
+          <CardText className="cards_price">$ 899.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro2} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Pajaro5} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Aves</CardTitle>
+          <CardSubtitle>Cacatúa </CardSubtitle>
+          <CardText className="cards_price">$ 599.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Pajaro4} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Aves</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro3} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Conejo2} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Roedores</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro4} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro5} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro6} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro7} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro8} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro9} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Perro10} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Caninos</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Pajaro2} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Aves</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card>
       <Card style={{width:"80%", height:"15%"}}>
         <CardImg top width="50%" src={Gato1} alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Tommy</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card.</CardText>
-          <Button>Button</Button>
+        <CardBody className>
+          <CardTitle>Categoria: Felino</CardTitle>
+          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardText className="cards_price">$ 749.99</CardText>
+          <Row>
+
+          <Button outline color="primary" >Add to cart
+          <img src={Carrito} height="30" width="50" alt="text here" />
+          </Button> <Pedigree/>
+          </Row>
         </CardBody>
       </Card> 
     </CardColumns>
