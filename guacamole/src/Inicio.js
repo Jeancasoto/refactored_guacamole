@@ -16,7 +16,7 @@ export default class Perfil extends React.Component {
         <Carousel></Carousel>
         <br/>
         <Jumbotron/>
-        <Homecards/>
+        <Homecards></Homecards>
         <JumbotronAliados/>
         <Aliados/>
         

@@ -36,7 +36,7 @@ export default class Pnavbar extends React.Component {
       <div>
         <Navbar color="light" light expand="md">
           <img src={Logo} height="30" width="50" alt="text here" />
-          <NavbarBrand className="brush_font_navbar" href="/">ETTER</NavbarBrand>
+          <NavbarBrand className="brush_font_navbar" href="/inicio">ETTER</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
@@ -48,6 +48,9 @@ export default class Pnavbar extends React.Component {
                 <DropdownMenu right>
                   <DropdownItem>
                     Manage Account
+                  </DropdownItem>
+                  <DropdownItem href="/buypets">
+                    Search my pet
                   </DropdownItem>
                   <DropdownItem href="/buypets">
                     Programa de adopcion
