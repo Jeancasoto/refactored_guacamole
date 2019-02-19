@@ -1,6 +1,7 @@
 import React from 'react';
 import Pnavbar from './profile_navbar.js';
 import Carousel from './Carousel.js';
+import Decks from './Decks.js';
 
 
 export default class Perfil extends React.Component {
@@ -10,6 +11,8 @@ export default class Perfil extends React.Component {
       <div className="App">
         <Pnavbar></Pnavbar>   
         <Carousel></Carousel>
+        <br/>
+        <Decks></Decks>
       </div>
     );
   }

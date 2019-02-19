@@ -34,7 +34,7 @@ export default class Login extends React.Component {
           </label>
 
           
-          <Button outline color="primary">Log in</Button>{' '} 
+          <Button href="/inicio" outline color="primary">Log in</Button>{' '} 
           
           {/*}
           <button tag={Prueba} to="/prueba" className="login_button">LOG IN</button>

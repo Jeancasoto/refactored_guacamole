@@ -41,10 +41,6 @@ export default class Pnavbar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
                 <Notification></Notification>
-            
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Comprar</NavLink>
-              </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Account
@@ -57,7 +53,7 @@ export default class Pnavbar extends React.Component {
                     Programa de adopcion
                   </DropdownItem>
                   <DropdownItem divider />
-                  <DropdownItem>
+                  <DropdownItem href="/">
                     Log out
                   </DropdownItem>
                 </DropdownMenu>
