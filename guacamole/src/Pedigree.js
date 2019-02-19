@@ -27,7 +27,12 @@ class ModalExample extends React.Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Pedigree</ModalHeader>
           <ModalBody>
-            Puede adquirir sus mascotas con confianza, PETTER le garantiza el pedigree de la mascota.
+            Puede adquirir sus mascotas con toda confianza.
+            Petter le garantiza<br/>
+            ● Carné de vacunas <br/>
+            ● Certificado de Pedigree<br/>
+            ● Seguridad de pago
+
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>Ok</Button>{' '}

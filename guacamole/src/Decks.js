@@ -22,7 +22,7 @@ import Perro9 from './Images/perro9.jpg';
 import Perro10 from './Images/perro10.jpg';
 import Husky from './Images/husky.jpg';
 import Carrito from './Images/carrito.svg';
-
+import Profile from './Images/profile.svg';
 import Pedigree from './Pedigree.js';
 
 
@@ -40,7 +40,11 @@ const Example = (props) => {
 
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
-          </Button> <Pedigree/>
+          </Button > <Pedigree/> 
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -55,6 +59,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -69,6 +77,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -83,6 +95,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -97,6 +113,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -125,6 +145,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -139,6 +163,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -153,6 +181,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -161,12 +193,16 @@ const Example = (props) => {
         <CardBody className>
           <CardTitle>Categoria: Caninos</CardTitle>
           <CardSubtitle>Beagle</CardSubtitle>
-          <CardText className="cards_price">$ 6999.99</CardText>
+          <CardText className="cards_price">$ 699.99</CardText>
           <Row>
 
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -181,6 +217,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -195,6 +235,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -209,6 +253,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -223,6 +271,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -237,6 +289,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -251,6 +307,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -265,6 +325,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -279,6 +343,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -293,6 +361,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card>
@@ -307,6 +379,10 @@ const Example = (props) => {
           <Button outline color="primary" >Add to cart
           <img src={Carrito} height="30" width="50" alt="text here" />
           </Button> <Pedigree/>
+          <Button outline color="primary">
+          <img src={Profile} height="30" width="40" alt="text here" />
+ 
+          </Button>
           </Row>
         </CardBody>
       </Card> 
