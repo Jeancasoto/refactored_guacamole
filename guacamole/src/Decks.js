@@ -26,6 +26,8 @@ import Profile from './Images/profile.svg';
 import Pedigree from './Pedigree.js';
 
 
+
+
 const Example = (props) => {
   return (
 
@@ -39,7 +41,7 @@ const Example = (props) => {
           <Row>
 
           <Button outline color="primary" >Add to cart
-          <img src={Carrito} height="30" width="50" alt="text here" />
+          <img src={Carrito} height="30" width="50" alt="text here" />  
           </Button > <Pedigree/> 
           <Button outline color="primary">
           <img src={Profile} height="30" width="40" alt="text here" />
