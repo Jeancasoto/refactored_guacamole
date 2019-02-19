@@ -1,38 +1,126 @@
 import React from 'react';
-import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
+import { Card, Button, CardImg, CardTitle, CardText, CardDeck, CardColumns, CardRows,
  CardSubtitle, CardBody } from 'reactstrap';
+import parrot from './Images/parrot.gif';
+
 
 const Example = (props) => {
   return (
-    <CardDeck>
-      <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+
+    <CardColumns>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg className="first_page_gif" top width="50%" src={parrot} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Tommy</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+          <CardText>This is a wider card.</CardText>
           <Button>Button</Button>
         </CardBody>
       </Card>
-      <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Tommy</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+          <CardText>This is a wider card.</CardText>
           <Button>Button</Button>
         </CardBody>
       </Card>
-      <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>Tommy</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+          <CardText>This is a wider card.</CardText>
           <Button>Button</Button>
         </CardBody>
       </Card>
-    </CardDeck>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Tommy</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Tommy</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Tommy</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Tommy</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Tommy</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Tommy</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Tommy</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Tommy</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+      <Card style={{width:"80%", height:"15%"}}>
+        <CardImg top width="50%" src={parrot} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Tommy</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>This is a wider card.</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+       
+    </CardColumns>
+
+    
+
   );
 };
 export default Example;

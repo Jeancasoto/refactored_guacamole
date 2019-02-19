@@ -49,7 +49,7 @@ export default class Pnavbar extends React.Component {
                   <DropdownItem>
                     Manage Account
                   </DropdownItem>
-                  <DropdownItem>
+                  <DropdownItem href="/buypets">
                     Programa de adopcion
                   </DropdownItem>
                   <DropdownItem divider />
