@@ -18,7 +18,6 @@ export default class Perfil extends React.Component {
         <Homecards></Homecards>
         <JumbotronAliados/>
         <Aliados/>
-        
       </div>
     );
   }
