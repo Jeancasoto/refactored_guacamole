@@ -146,8 +146,8 @@ const Example = (props) => {
         <CardImg top width="50%" src={Pajaro4} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Aves</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
-          <CardText className="cards_price">$ 749.99</CardText>
+          <CardSubtitle>Aratinga solstitialis </CardSubtitle>
+          <CardText className="cards_price">$ 799.99</CardText>
           <Row>
 
           <Button outline color="primary" >Add to cart
@@ -160,8 +160,8 @@ const Example = (props) => {
         <CardImg top width="50%" src={Perro3} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Caninos</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
-          <CardText className="cards_price">$ 749.99</CardText>
+          <CardSubtitle>Beagle</CardSubtitle>
+          <CardText className="cards_price">$ 6999.99</CardText>
           <Row>
 
           <Button outline color="primary" >Add to cart
@@ -174,8 +174,8 @@ const Example = (props) => {
         <CardImg top width="50%" src={Conejo2} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Roedores</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
-          <CardText className="cards_price">$ 749.99</CardText>
+          <CardSubtitle>Conejo Californiano </CardSubtitle>
+          <CardText className="cards_price">$ 399.99</CardText>
           <Row>
 
           <Button outline color="primary" >Add to cart
@@ -188,8 +188,8 @@ const Example = (props) => {
         <CardImg top width="50%" src={Perro4} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Caninos</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
-          <CardText className="cards_price">$ 749.99</CardText>
+          <CardSubtitle>Cocker spaniel inglés</CardSubtitle>
+          <CardText className="cards_price">$ 699.99</CardText>
           <Row>
 
           <Button outline color="primary" >Add to cart
@@ -202,7 +202,7 @@ const Example = (props) => {
         <CardImg top width="50%" src={Perro5} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Caninos</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardSubtitle>Dalmata </CardSubtitle>
           <CardText className="cards_price">$ 749.99</CardText>
           <Row>
 
@@ -216,7 +216,7 @@ const Example = (props) => {
         <CardImg top width="50%" src={Perro6} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Caninos</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardSubtitle>Bulldog Inglés </CardSubtitle>
           <CardText className="cards_price">$ 749.99</CardText>
           <Row>
 
@@ -230,8 +230,8 @@ const Example = (props) => {
         <CardImg top width="50%" src={Perro7} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Caninos</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
-          <CardText className="cards_price">$ 749.99</CardText>
+          <CardSubtitle>Basset Hound</CardSubtitle>
+          <CardText className="cards_price">$ 699.99</CardText>
           <Row>
 
           <Button outline color="primary" >Add to cart
@@ -244,8 +244,8 @@ const Example = (props) => {
         <CardImg top width="50%" src={Perro8} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Caninos</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
-          <CardText className="cards_price">$ 749.99</CardText>
+          <CardSubtitle>Schnauzer</CardSubtitle>
+          <CardText className="cards_price">$ 899.99</CardText>
           <Row>
 
           <Button outline color="primary" >Add to cart
@@ -258,8 +258,8 @@ const Example = (props) => {
         <CardImg top width="50%" src={Perro9} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Caninos</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
-          <CardText className="cards_price">$ 749.99</CardText>
+          <CardSubtitle>Pitbull</CardSubtitle>
+          <CardText className="cards_price">$ 1399.99</CardText>
           <Row>
 
           <Button outline color="primary" >Add to cart
@@ -272,7 +272,7 @@ const Example = (props) => {
         <CardImg top width="50%" src={Perro10} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Caninos</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardSubtitle>Chihuahua</CardSubtitle>
           <CardText className="cards_price">$ 749.99</CardText>
           <Row>
 
@@ -286,8 +286,8 @@ const Example = (props) => {
         <CardImg top width="50%" src={Pajaro2} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Aves</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
-          <CardText className="cards_price">$ 749.99</CardText>
+          <CardSubtitle>Pericos Australianos</CardSubtitle>
+          <CardText className="cards_price">$ 49.99</CardText>
           <Row>
 
           <Button outline color="primary" >Add to cart
@@ -300,7 +300,7 @@ const Example = (props) => {
         <CardImg top width="50%" src={Gato1} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Categoria: Felino</CardTitle>
-          <CardSubtitle>Bulldog Frances</CardSubtitle>
+          <CardSubtitle>Munchkins</CardSubtitle>
           <CardText className="cards_price">$ 749.99</CardText>
           <Row>
 
