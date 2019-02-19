@@ -10,7 +10,7 @@ import Buy from './buypets.js';
 class App extends Component {
   render() {
     return (
-
+     
       <Router>
         <div>
           <Switch>

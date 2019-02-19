@@ -29,7 +29,7 @@ export default class Login extends React.Component {
           </label>
 
           <label className="login_register">Password     
-          <input type="text"></input>
+          <input className="login_register" type="text"></input>
           
           </label>
 
