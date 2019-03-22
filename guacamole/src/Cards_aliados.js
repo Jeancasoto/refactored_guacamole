@@ -13,7 +13,7 @@ const Example = (props) => {
   return (
 
     <CardColumns>
-      <Card style={{width:"80%", height:"15%"}}>
+      <Card body inverse style={{ backgroundColor: '#dbd5e0b7' }}>
         <CardImg className="first_page_gif" top width="50%" src={Veterinaria_soto} alt="Card image cap" />
         <CardBody className>
           <CardTitle>Hospital y linica veterinaria Soto</CardTitle>
@@ -22,19 +22,19 @@ const Example = (props) => {
         </CardBody>
       </Card>
 
-      <Card style={{width:"80%", height:"15%"}}>
+      <Card body inverse style={{ backgroundColor: '#dbd5e0b7' }}>
         <CardImg className="first_page_gif" top width="50%" src={Super_mascota} alt="Card image cap" />
         <CardBody className>
-          <CardTitle>Hospital y linica veterinaria Soto</CardTitle>
+          <CardTitle>Super Mascotas</CardTitle>
           <CardText className="cards_price">Abierto 24/7</CardText>
           <Button outline color="primary" >Visitar sitio web</Button > 
         </CardBody>
       </Card>
 
-      <Card style={{width:"80%", height:"15%"}}>
+      <Card body inverse style={{ backgroundColor: '#dbd5e0b7' }}>
         <CardImg className="first_page_gif" top width="50%" src={Happy_pets} alt="Card image cap" />
         <CardBody className>
-          <CardTitle>Hospital y linica veterinaria Soto</CardTitle>
+          <CardTitle>Happy Pets</CardTitle>
           <CardText className="cards_price">Abierto 24/7</CardText>
           <Button outline color="primary" >Visitar sitio web</Button > 
         </CardBody>

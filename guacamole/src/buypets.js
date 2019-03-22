@@ -8,6 +8,9 @@ import { Card, Button, CardImg, Row, CardTitle, CardText, CardDeck, CardColumns,
 export default class Buypets extends React.Component {
   render() {
     return (
+
+      
+      
       <div className="App">
         <Pnavbar></Pnavbar>   
         <Button outline color="link ">
@@ -18,7 +21,11 @@ export default class Buypets extends React.Component {
         </Button>
         <br/>
         <br/>
+        
+
         <Decks></Decks>
+      
+
       </div>
     );
   }

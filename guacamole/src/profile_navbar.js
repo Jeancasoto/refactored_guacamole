@@ -1,6 +1,9 @@
 import React from 'react';
-import Notification from './Notifications.js';
-import Logo from './Images/64_black.png';
+import Search from './Search.js';
+
+import Cart from './Cart.js';
+import Logo from './Images/petter_logo_morado.png';
+import Perfil from './Images/user.png';
 import './App.css';
 
 
@@ -35,23 +38,27 @@ export default class Pnavbar extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <img src={Logo} height="30" width="50" alt="text here" />
-          <NavbarBrand className="brush_font_navbar" href="/inicio">ETTER</NavbarBrand>
+        <a href="/inicio">
+          <img src={Logo} height="50" width="150" alt="text here" /> </a>
+          <NavbarBrand className="brush_font_navbar"></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-                <Notification></Notification>
+       {/*}     
+                <a href="/mycart">
+                <Cart></Cart> 
+                </a>
+    {*/}
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
+                <img src={Perfil} alt="text here" />
                   Account
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
                     Manage Account
                   </DropdownItem>
-                  <DropdownItem href="/buypets">
-                    Search my pet
-                  </DropdownItem>
+             
                   <DropdownItem href="/buypets">
                     Programa de adopcion
                   </DropdownItem>

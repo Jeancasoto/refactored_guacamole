@@ -22,7 +22,7 @@ class ModalExample extends React.Component {
     return (
       <div>
         <Button outline color="primary" onClick={this.toggle}> 
-        <img src={Certificado} height="30" width="50" alt="text here" />
+        <img src={Certificado} height="30" width="30" alt="text here" />
         {this.props.buttonLabel}</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Pedigree</ModalHeader>
